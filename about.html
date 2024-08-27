@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+
+        #container {
+            width: 100vw; /* Full viewport width */
+            height: 100vh; /* Full viewport height */
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            box-sizing: border-box; /* Ensure padding is included in width/height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        header {
+            background: rgba(0, 120, 215, 0.8);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid #0078d7;
+        }
+
+        nav {
+            background: rgba(0, 75, 135, 0.8);
+            color: #fff;
+            text-align: center;
+            border-bottom: 1px solid #0078d7;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background: rgba(0, 90, 140, 0.8);
+        }
+
+        .content {
+            flex: 1; /* Allow content to expand and fill the available space */
+            padding: 20px;
+            overflow-y: auto; /* Add scrollbar if content overflows */
+        }
+
+        footer {
+            background: rgba(0, 120, 215, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Us</h1>
+        </header>
+
+        <nav>
+            <a href="index.html"><i class="fa fa-home"></i> Home</a>
+            <a href="about.html"><i class="fa fa-user"></i> About</a>
+            <a href="services.html"><i class="fa fa-cogs"></i> Services</a>
+        </nav>
+
+        <div class="content">
+            <h2>Our Story</h2>
+            <p>This page contains information about our company, our mission, and our values. It's a great place to tell visitors more about us.</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2014 My Website. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
